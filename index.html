@@ -8,6 +8,9 @@
         <title>Barberia Alura</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="Style-home.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -23,13 +26,15 @@
             </div>
         </header>
 
+        <img class="banner" src="banner/banner.jpg">
+
         <main>
-            <div class="referencial">
-                <img src="banner/banner.jpg">
-            </div>
-            <div class="weare">
+                
+            <section class="principal">
     
-                <h2>Sobre la Barberia Alura</h2>
+                <h2 class="titulo-principal">Sobre la Barberia Alura</h2>
+
+                <img class="utensilios" src="imagenes/utensilios[1].jpg" alt="utencilios de un barbero">
     
                 <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae 
                     para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, 
@@ -37,7 +42,7 @@
                     diariamente.
                 </p>
     
-                <p class="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a 
+                <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a 
                     nuestros clientes"</strong>.</em>
                 </p>
     
@@ -47,21 +52,42 @@
                     y agilidad, garantizando calidad y satisfacción de nuestros clientes.
                 </p> 
     
-            </div>
+            </section>
+
+            <section class="mapa">
+
+                <h3 class="titulo-principal">Nuestra Ubicacion</h3>
+                <p>Nuestro establecimiento esta ubicado en el corazon de la ciudad</p>
+                
+                <div class="mapa-contenido">
+                    
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15545.043093031216!2d-76.39621406793593!3d-13.082652595798619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910ff935c4a035bb%3A0x1b32f04916c31d1c!2sValle%20Grande!5e0!3m2!1ses!2spe!4v1646723788221!5m2!1ses!2spe" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                </div>
+
+            </section>
             
-            <div class="diferenciales">
+            <section class="diferenciales">
 
-                <h3>Diferenciales</h3>
+                <h3 class="titulo-principal">Diferenciales</h3>
 
-                <ul>
-                    <li class="items">&#9831;Atencion personalizda a los clientes.</li>
-                    <li class="items">&#9831;Diferenciado.</li>
-                    <li class="items">&#9831;Localizacion.</li>
-                    <li class="items">&#9831;Profesionales Calificados.</li>
-                </ul>
+                <div class="contenidodiferenciales">
+                    
+                    <ul class="listadiferenciales">
+                        <li class="items">&#9831;Atencion personalizda a los clientes.</li>
+                        <li class="items">&#9831;Diferenciado.</li>
+                        <li class="items">&#9831;Localizacion.</li>
+                        <li class="items">&#9831;Profesionales Calificados.</li>
+                        <li class="items">&#9831;Puntualidad.</li>
+                        <li class="items">&#9831;Limpieza.</li>
+                    </ul><img src="diferenciales/diferenciales.jpg"  class="imagenDiferenciales">
 
-                <img src="diferenciales/diferenciales.jpg"  class="imagenDiferenciales">
+                </div>
 
+            </section>
+
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </main>
         <footer>
