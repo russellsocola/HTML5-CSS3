@@ -47,7 +47,7 @@ footer{
 }*/
 form{
     width: 940px;
-    margin: 40px 0;
+    margin: 40px 10em;
 }
 form label,  form legend{
     display: block;
@@ -80,7 +80,7 @@ form label,  form legend{
 
 }
 table{
-    margin: 40px 40px;
+    margin: 40px 10em;
 }
 thead{
     background: #666;
@@ -129,7 +129,10 @@ td, th{
         width: 100%;
         margin: 0 2em;
     }
-    label, input, textarea{
+    form{
+        margin-top: 1em;
+    }
+    label, input, textarea, table{
         margin: 1em 1em;
     }
 }
