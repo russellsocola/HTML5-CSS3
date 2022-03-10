@@ -41,11 +41,12 @@ footer{
     color: #fff;
     margin: 20px;
 }
-main{
+/*main{
     width: 940px;
     margin: 0 auto;
-}
+}*/
 form{
+    width: 940px;
     margin: 40px 0;
 }
 form label,  form legend{
@@ -115,4 +116,20 @@ td, th{
 .imagenDiferenciales{
     width: 60%;
 
+}
+@media screen and (max-width:450px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position:static;
+    }
+    
+    .box,form{
+        width: 100%;
+        margin: 0 2em;
+    }
+    label, input, textarea{
+        margin: 1em 1em;
+    }
 }
