@@ -88,6 +88,7 @@ p:first-line{
 .diferenciales{
     padding: 3em 0;
     background: #888;
+    
 }
 .contenidodiferenciales{
     width: 640px;
@@ -129,21 +130,20 @@ footer{
     color: #fff;
     margin: 20px;
 }
-@media screen and (max-width:450px) {
+@media screen and (max-width:550px) {
+    
     h1{
         text-align: center;
     }
     nav{
         position: static;
+        text-align: center;
     }
-    .box,.principal,.mapa-contenido,.contenidodiferenciales,.video{
+    .box,.principal,.mapa-contenido, .mapa-iframe,.contenidodiferenciales,.listadiferenciales,.video{
             width: auto;
             margin: 0 1em;
     }
-    .listadiferenciales,.imagenDiferenciales{
-        width: 100%;
-    }
     .imagenDiferenciales{
-        margin: 2em 0;
+        margin: 2em 4rem;
     }
 }
